@@ -13,13 +13,13 @@ import java.sql.SQLException;
  */
 public class DatabaseConnection {
     // Constante `URL`: Contiene la URL de la base de datos MySQL, incluyendo el nombre del host, el puerto y el nombre de la base de datos.
-    private static final String URL = "jdbc:mysql://localhost:3306/db";
+    private static final String URL = "jdbc:mysql://localhost:3306/nombre-base-de-datos";
     
     // Constante `USER`: Almacena el nombre de usuario para autenticarse en la base de datos.
-    private static final String USER = "root";
+    private static final String USER = "usuario-base-de-datos";
     
     // Constante `PASSWORD`: Almacena la contraseña del usuario para acceder a la base de datos.
-    private static final String PASSWORD = "root";
+    private static final String PASSWORD = "contraseña-base-de-datos";
     
     /*
      * Método `getConnection`: Establece y retorna una conexión a la base de datos.
